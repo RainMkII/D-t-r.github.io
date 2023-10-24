@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+}
+body {
+    background-image:url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.NavAll {
+    
+        position: fixed;
+        top: 0;
+        color: #FFB8B8;
+        z-index: 9999;
+        padding: 15px 0px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 50px;
+}
+.NavLink a {
+    text-decoration: none;
+    color: white;
+}
+.NavLink:hover {
+    color: red;
+}
+.NavLink {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 1.2em;
+    justify-content: flex-end;
+    padding-right: 126px;
+    padding-top: 10px;
+}
+.NavLink :hover {
+    color: red;
+}
+.titreh1 {
+    color: white;
+    margin-top: 169px;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.infoClub {
+    color: white;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    gap: 220px;
+    font-size: 1.2em;
+}
+.infoClub2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: white;
+}
+
+.infoClub p {
+    width: 507px;
+}
+
+.imageAS {
+    width: 507px;
+    object-fit: cover;
+}
+.planning{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 284px;
+    margin-bottom: 111px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 1151px;
+    margin-left: 307px;
+}
+.horraires{
+color: white;
+}
+.galeryMain{
+    background: rgba(0, 0, 0, 0.8);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.imgCat {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.galery{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-row-gap: 50px;
+    margin: 0 auto; /* Centrez la grille horizontalement */
+    max-width: 1200px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lienS{
+    width: 55px;
+}
+.lienF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.droit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.modal {
+    display: block; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.HorraireContact{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 595px;
+    margin-left: 59px;
+}
+.prix {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 150px;
+    font-size: 1.5em;
+}
+.prixBroder{
+    background: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .NavLink{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        font-size: 4.5em;
+    }
+    .NavAll{
+        height: 400px;
+        position: absolute;
+    }
+    .imageAS {
+        display: none;
+    }
+    .infoClub {
+        color: white;
+    display: flex;
+    margin-left: 141px;
+    margin-top: 110px;
+    margin-bottom: 150px;
+    gap: 220px;
+    font-size: 3em;
+    }
+    .galery{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-left: 165px;
+    }
+    .titreh1 {
+        margin-top:150px ;
+        margin-left: 90px;
+        margin-top: 520px;
+    }
+    .infoClub2{
+        width: 500px;
+        margin-left: 160px;
+        font-size: 1.5em;
+    }
+    .prixBroder{
+        font-size: 1.5em;
+    }
+    .planning{
+        margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    .HorraireContact{
+        width: 500px;
+    }
+}
