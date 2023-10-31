@@ -177,6 +177,9 @@ color: white;
     align-items: center;
     color: white;
 }
+.googlemapMobil {
+    display: none;
+}
 
 @media screen and (max-width: 768px) {
     .NavLink{
