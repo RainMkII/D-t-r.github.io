@@ -185,51 +185,87 @@ color: white;
         justify-content: center;
         align-items: center;
         padding-right: 0px;
-        font-size: 4.5em;
+        font-size: 2.5em;
     }
     .NavAll{
-        height: 400px;
+        height: 300px;
         position: absolute;
     }
     .imageAS {
         display: none;
     }
     .infoClub {
+        display: none;
+    }
+    .infoClubMobil{
         color: white;
-    display: flex;
-    margin-left: 141px;
-    margin-top: 110px;
-    margin-bottom: 150px;
-    gap: 220px;
-    font-size: 3em;
+        font-size: 1.5em;
+        margin-left: 35px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 300px;
     }
     .galery{
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        margin-left: 165px;
+        margin-left: 22px;
     }
-    .titreh1 {
-        margin-top:150px ;
-        margin-left: 90px;
-        margin-top: 520px;
+    .imgCat{
+        width: 294px;
+        height: 294px;
+    }
+    .titreh1{
+        color: white;
+        margin-top: 400px;
+        margin-left: 50px;
+        font-size: 1.9em;
+        display: flex;
+        justify-content: center;
+        width: 243px; 
+    }
+    .titreh12 {
+        margin-left: 44px;
+        width: 243px;
+        margin-top: 80px;
+        font-size: 1.9em;
+        color: white;
     }
     .infoClub2{
-        width: 500px;
-        margin-left: 160px;
-        font-size: 1.5em;
+        width: 249px;
+        margin-left: 68px;
+        font-size: 1em;
+    }
+    .prix {
+        margin-top: 60px;
     }
     .prixBroder{
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+    .prixBroder {
+        width: 336px;
+        height: 336px;
+        font-size: 1em;
     }
     .planning{
         margin-left: 120px;
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 336px;
+        margin-top:108px;
+        align-items:baseline;
+        margin-left: 0px;
+        gap: 40px;
     }
+    
     .HorraireContact{
-        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 47px;
+        width: 274px;
+    }
+    .googlemap {
+        display: none;
     }
 }
