@@ -177,7 +177,7 @@ color: white;
     align-items: center;
     color: white;
 }
-.googlemapMobil {
+#googlemapMobil {
     display: none;
 }
 
